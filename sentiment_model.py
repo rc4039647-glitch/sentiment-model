@@ -21,6 +21,8 @@ print("TensorFlow version:", tf.__version__)
 import cv2
 print("OpenCV version:", cv2.__version__)
 
+   
+
 gpu_devices = tf.config.list_physical_devices("GPU")
 if gpu_devices:
     print(f"\n✅ GPU available: {gpu_devices[0].name} — Project 2 will run faster.")
@@ -372,3 +374,4 @@ for review in test_reviews:
 import joblib
 joblib.dump(sentiment_model, "sentiment_model.pkl")
 joblib.dump(vectorizer, "tfidf_vectorizer.pkl")
+
