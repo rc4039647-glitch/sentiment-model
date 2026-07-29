@@ -1,5 +1,9 @@
 # Sentiment Analysis using Machine Learning
 
+## 🌐 Live Demo
+
+https://sentiment-model-jkhp36kdppzthnifjv9bfh.streamlit.app
+
 ## Project Overview
 
 This project predicts whether a piece of text expresses a positive or negative sentiment using a machine learning model.
